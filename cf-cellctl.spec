@@ -1,6 +1,6 @@
 Name:       cf-cellctl
-Version:    0.0.0
-Release:    0%{?dist}
+Version:    1.0.0
+Release:    1%{?dist}
 Summary:    Control utility for the ClockworkPi uConsole cellular module.
 
 License:    GPL-3.0-only
@@ -33,3 +33,6 @@ sh -n %{buildroot}%{_bindir}/cf-cellctl
 %{_bindir}/%{name}
 
 %changelog
+* Wed Nov 19 2025 David Goldstein 1.0.0-1
+- Initial commit
+
