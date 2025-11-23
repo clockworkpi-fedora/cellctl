@@ -1,5 +1,5 @@
 Name:       cf-cellctl
-Version:    1.0.0
+Version:    1.0.1
 Release:    1%{?dist}
 Summary:    Control utility for the ClockworkPi uConsole cellular module.
 
@@ -33,6 +33,10 @@ sh -n %{buildroot}%{_bindir}/cf-cellctl
 %{_bindir}/%{name}
 
 %changelog
+* Sun Nov 23 2025 David Goldstein 1.0.1-1
+- Adjust power sequence for reliability, and make experience more robust.
+  (93741283+davidvfx07@users.noreply.github.com)
+
 * Wed Nov 19 2025 David Goldstein 1.0.0-1
 - Initial commit
 
